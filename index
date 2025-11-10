@@ -1,1 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <meta name="description" content="Personal portfolio — works and about" />
+  <style>
+    :root{
+      --bg:#000; --panel:#0b0b0b; --muted:#9aa3a6; --accent:#00ff99;
+      --gap:10px; --radius:8px; --max-width:1200px; font-family:Inter,system-ui,Segoe UI,Roboto,Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:#f2f6f5;font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
 
+    .wrap{max-width:var(--max-width);margin:0 auto;padding:24px}
+    header{position:fixed;left:0;right:0;top:0;height:64px;display:flex;align-items:center;justify-content:flex-end;padding:0 24px;z-index:100}
+    .nav-btn{color:var(--muted);background:transparent;border:0;padding:8px 12px;border-radius:8px;margin-left:8px;cursor:pointer}
+    .nav-btn:hover{color:var(--accent)}
+
+    #home{position:fixed;inset:0;display:grid;place-items:center;background:#000}
+    #home .cover{position:relative;width:100%;height:100%;overflow:hidden}
+    /* UPLOAD COVER IMAGE HERE */
+    #home img{width:100%;height:100%;object-fit:cover;filter:grayscale(0.02) contrast(1.03)}
+
+    .hotspot{position:absolute;border-radius:10px;cursor:pointer;display:grid;place-items:center;border:2px solid rgba(255,255,255,0.04);transition:transform .25s,box-shadow .25s}
+    .hotspot:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,0,0,0.6)}
+    .hotspot .label{background:linear-gradient(90deg,rgba(0,0,0,.45),rgba(255,255,255,0.02));padding:8px 12px;border-radius:8px;font-weight:600;color:var(--muted)}
+
+    .hotspot--works{left:10%;top:60%;width:260px;height:140px}
+    .hotspot--about{right:10%;top:60%;width:260px;height:140px}
+
+    main{display:none;padding-top:88px}
+    section{padding:40px 24px}
+    h1,h2,h3{margin:0 0 12px}
+    p{color:var(--muted)}
+
+    .collage{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:120px;gap:var(--gap);grid-auto-flow:dense}
+    .item{background:#111;border-radius:8px;overflow:hidden;position:relative}
+    .item img{width:100%;height:100%;object-fit:cover;display:block}
+
+    .w2{grid-column: span 2}
+    .w3{grid-column: span 3}
+    .h2{grid-row:span 2}
+    .h3{grid-row:span 3}
+
+    @media (max-width:1100px){.collage{grid-template-columns:repeat(4,1fr)}}
+    @media (max-width:700px){.collage{grid-template-columns:repeat(2,1fr);grid-auto-rows:100px}}
+
+    .about-top{display:flex;gap:20px;align-items:flex-start}
+    .about-feature{flex:1;min-width:260px}
+    .about-media{flex:2}
+    .bio{background:var(--panel);padding:20px;border-radius:10px}
+
+    footer{padding:24px;text-align:center;color:var(--muted);font-size:13px}
+
+    .audio-control{position:fixed;left:20px;bottom:20px;background:rgba(255,255,255,0.03);border-radius:999px;padding:8px;backdrop-filter:blur(6px);cursor:pointer}
+    .audio-control svg{display:block}
+
+    .btn{background:var(--accent);color:#001;padding:8px 12px;border-radius:8px;font-weight:600;border:0;cursor:pointer}
+  </style>
+</head>
+<body>
+  <header>
+    <button class="nav-btn" data-target="home" aria-label="Home">Home</button>
+    <button class="nav-btn" data-target="works">Works</button>
+    <button class="nav-btn" data-target="about">About</button>
+  </header>
+
+  <div class="audio-control" id="audioControl" title="Play / Pause audio">
+    <svg id="audioIcon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="color:var(--muted)"><path d="M3 9v6h4l5 4V5L7 9H3z"></path></svg>
+  </div>
+
+  <div id="home" role="region" aria-label="Homepage cover">
+    <div class="cover">
+      <!-- UPLOAD_PICTURE_HERE -->
+      <img src="UPLOAD_PICTURE_HERE" alt="Homepage cover image">
+
+      <div class="hotspot hotspot--works" data-target="works" role="link" tabindex="0">
+        <div class="label">Explore Works</div>
+      </div>
+
+      <div class="hotspot hotspot--about" data-target="about" role="link" tabindex="0">
+        <div class="label">About Me</div>
+      </div>
+    </div>
+  </div>
+
+  <main id="app" class="wrap" aria-live="polite">
+
+    <section id="works">
+      <h2>Selected Works</h2>
+      <p class="muted">A curated collage of projects.</p>
+      <div class="collage" id="worksCollage"></div>
+    </section>
+
+    <section id="aboutPage">
+      <div class="about-top">
+        <div class="about-feature">
+          <!-- UPLOAD_PICTURE_HERE -->
+          <img src="UPLOAD_PICTURE_HERE" alt="Featured image" style="width:100%;border-radius:10px;object-fit:cover;height:320px;display:block;margin-bottom:12px">
+          <div class="bio">
+            <h3>About Me</h3>
+            <p>Write a short bio here.</p>
+            <p style="margin-top:8px;color:var(--muted)">Contact: your.email@example.com</p>
+          </div>
+        </div>
+
+        <div class="about-media">
+          <h3>Media & Projects</h3>
+          <div class="collage" id="aboutCollage"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Portfolio Site. Images are placeholders.
+    </footer>
+  </main>
+
+  <div id="viewer" style="position:fixed;inset:0;background:rgba(0,0,0,0.95);display:none;place-items:center;z-index:9999">
+    <button id="closeView" style="position:absolute;top:24px;right:24px;background:transparent;border:0;color:var(--muted);font-size:18px;cursor:pointer">Close ✕</button>
+    <img id="viewerImg" src="" alt="" style="max-width:95%;max-height:90%;border-radius:10px;box-shadow:0 30px 80px rgba(0,0,0,0.7)">
+  </div>
+
+  <audio id="bgAudio" loop preload="auto">
+    <!-- UPLOAD_AUDIO_HERE -->
+    <source src="UPLOAD_AUDIO_HERE" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const home = document.getElementById('home');
+    const app = document.getElementById('app');
+    const year = document.getElementById('year'); year.textContent = new Date().getFullYear();
+
+    function showSection(target){
+      if(target === 'home'){
+        home.style.display = 'grid'; app.style.display = 'none'; window.scrollTo(0,0);
+      } else {
+        home.style.display = 'none'; app.style.display = 'block';
+        document.getElementById(target === 'works' ? 'works': 'aboutPage').scrollIntoView({behavior:'smooth'});
+      }
+    }
+
+    document.querySelectorAll('[data-target]').forEach(el=>{
+      el.addEventListener('click', ()=> showSection(el.dataset.target));
+      el.addEventListener('keydown', (e)=>{ if(e.key === 'Enter') showSection(el.dataset.target) });
+    });
+
+    const worksCollage = document.getElementById('worksCollage');
+    for(let i=1;i<=39;i++){
+      const div = document.createElement('div'); div.className='item';
+      const r = i % 7;
+      if(r===0) div.classList.add('w3','h2');
+      else if(r===1) div.classList.add('w2');
+      else if(r===2) div.classList.add
