@@ -94,31 +94,31 @@
       <h2>Selected Works</h2>
       <p class="muted">A curated collage of projects.</p>
       <div class="collage" id="worksCollage">
-        <div class="item w2 h2"><img src="noahashe.github.io/noahashe/images/1k point template.pdf" alt="Work 1"></div>
-        <div class="item w3"><img src="noahashe.github.io/noahashe/images/All Region Graphic.jpg" alt="Work 2"></div>
-        <div class="item h2"><img src="noahashe.github.io/noahashe/images/Basketball Facilities.jpg" alt="Work 3"></div>
-        <div class="item"><img src="noahashe.github.io/noahashe/images/Birty Logo.jpg" alt="Work 4"></div>
-        <div class="item w2"><img src="noahashe.github.io/noahashe/images/Cade Cover.jpg" alt="Work 5"></div>
-        <div class="item h2"><img src="noahashe.github.io/noahashe/images/Charleston Commited.HEIC" alt="Work 6"></div>
-        <div class="item w3 h2"><img src="noahashe.github.io/noahashe/images/Clemson Fab Five Shirt.pdf" alt="Work 7"></div>
-        <div class="item"><img src="noahashe.github.io/noahashe/images/Clover Gameday.jpg" alt="Work 8"></div>
+        <div class="item w2 h2"><img src="noahashe.github.io/noahashe/1k point template.pdf" alt="Work 1"></div>
+        <div class="item w3"><img src="noahashe.github.io/noahashe/All Region Graphic.jpg" alt="Work 2"></div>
+        <div class="item h2"><img src="noahashe.github.io/noahashe/Basketball Facilities.jpg" alt="Work 3"></div>
+        <div class="item"><img src="noahashe.github.io/noahashe/Birty Logo.jpg" alt="Work 4"></div>
+        <div class="item w2"><img src="noahashe.github.io/noahashe/Cade Cover.jpg" alt="Work 5"></div>
+        <div class="item h2"><img src="noahashe.github.io/noahashe/Charleston Commited.HEIC" alt="Work 6"></div>
+        <div class="item w3 h2"><img src="noahashe.github.io/noahashe/Clemson Fab Five Shirt.pdf" alt="Work 7"></div>
+        <div class="item"><img src="noahashe.github.io/noahashe/Clover Gameday.jpg" alt="Work 8"></div>
         <div class="item w2"><img src="noahashe.github.io/noahashe/Dirty Bird Shirt.jpg" alt="Work 9"></div>
-        <div class="item h2"><img src="noahashe.github.io/noahashe/images/Fort Mill Gameday.jpg" alt="Work 10"></div>
-        <div class="item w3"><img src="noahashe.github.io/noahashe/images/Fortnite Gameday.jpg" alt="Work 11"></div>
-        <div class="item"><img src="noahashe.githib.io/noahashe/images/Goal Graphic.jpg" alt="Work 12"></div>
-        <div class="item w2 h2"><img src="noahashe.github.io/noahashe/images/Greetings from Clemson CU soon Julia Scott.pdf" alt="Work 13"></div>
-        <div class="item h3"><img src="noahashe.github.io/noahashe/images/Home Visit Graphic.pdf" alt="Work 14"></div>
-        <div class="item w3"><img src="noahashe.github.io/noahashe/images/Jamison Graphic.jpg" alt="Work 15"></div>
-        <div class="item"><img src="noahashe.github.io/noahashe/images/Julia Scott Third Team Graphic.pdf" alt="Work 16"></div>
-        <div class="item w2"><img src="noahashe.github.io/noahashe/images/KNUEPPEL DRAFTED.pdf" alt="Work 17"></div>
-        <div class="item h2"><img src="noahashe.github.io/noahashe/images/Kimora Fields New Home Graphic One Picture.pdf" alt="Work 18"></div>
-        <div class="item"><img src="noahashe.github.io/noahashe/images/LMU Commit.jpg" alt="Work 19"></div>
-        <div class="item w3 h2"><img src="noahashe.github.io/noahashe/images/Lancaster Gameday.jpg" alt="Work 20"></div>
-        <div class="item w2"><img src="noahashe.github.io/noahashe/images/Me Spotify Thing.jpg" alt="Work 21"></div>
-        <div class="item h2"><img src="noahashe.github.io/noahashe/images/Mimi Thiero Computer Graphic Graphic.pdf" alt="Work 22"></div>
-        <div class="item"><img src="noahashe.github.io/noahashe/images/Trinity Jones Card Graphic.pdf" alt="Work 23"></div>
-        <div class="item w3"><img src="noahashe.github.io/noahashe/images/USC Gameday Graphic.jpg" alt="Work 24"></div>
-        <div class="item"><img src="noahashe.github.io/noahashe/images/Riverbluff Gameday.jpg" alt="Work 25"></div>
+        <div class="item h2"><img src="noahashe.github.io/noahashe/Fort Mill Gameday.jpg" alt="Work 10"></div>
+        <div class="item w3"><img src="noahashe.github.io/noahashe/Fortnite Gameday.jpg" alt="Work 11"></div>
+        <div class="item"><img src="noahashe.githib.io/noahashe/Goal Graphic.jpg" alt="Work 12"></div>
+        <div class="item w2 h2"><img src="noahashe.github.io/noahashe/Greetings from Clemson CU soon Julia Scott.pdf" alt="Work 13"></div>
+        <div class="item h3"><img src="noahashe.github.io/noahashe/Home Visit Graphic.pdf" alt="Work 14"></div>
+        <div class="item w3"><img src="noahashe.github.io/noahashe/Jamison Graphic.jpg" alt="Work 15"></div>
+        <div class="item"><img src="noahashe.github.io/noahashe/Julia Scott Third Team Graphic.pdf" alt="Work 16"></div>
+        <div class="item w2"><img src="noahashe.github.io/noahashe/KNUEPPEL DRAFTED.pdf" alt="Work 17"></div>
+        <div class="item h2"><img src="noahashe.github.io/noahashe/Kimora Fields New Home Graphic One Picture.pdf" alt="Work 18"></div>
+        <div class="item"><img src="noahashe.github.io/noahashe/LMU Commit.jpg" alt="Work 19"></div>
+        <div class="item w3 h2"><img src="noahashe.github.io/noahashe/Lancaster Gameday.jpg" alt="Work 20"></div>
+        <div class="item w2"><img src="noahashe.github.io/noahashe/Me Spotify Thing.jpg" alt="Work 21"></div>
+        <div class="item h2"><img src="noahashe.github.io/noahashe/Mimi Thiero Computer Graphic Graphic.pdf" alt="Work 22"></div>
+        <div class="item"><img src="noahashe.github.io/noahashe/Trinity Jones Card Graphic.pdf" alt="Work 23"></div>
+        <div class="item w3"><img src="noahashe.github.io/noahashe/USC Gameday Graphic.jpg" alt="Work 24"></div>
+        <div class="item"><img src="noahashe.github.io/noahashe/Riverbluff Gameday.jpg" alt="Work 25"></div>
       </div>
     </section>
 
@@ -138,31 +138,31 @@
         <div class="about-media">
           <h3>Media & Projects</h3>
           <div class="collage" id="aboutCollage">
-            <div class="item w2 h2"><img src="noahashe.github.io/noahashe/images/35 Suit.JPG" alt="About 1"></div>
-            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Adam Sandler Day.JPG" alt="About 2"></div>
-            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Alec Goal.JPG" alt="About 3"></div>
-            <div class="item"><img src="noahashe.github.io/noahashe/images/Barbie Day.JPG" alt="About 4"></div>
-            <div class="item w2"><img src="noahashe.github.io/noahashe/images/Brenda Ashe .HEIC" alt="About 5"></div>
-            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Charlie FSU.HEIC" alt="About 6"></div>
-            <div class="item w3 h2"><img src="noahashe.github.io/noahashe/images/Country vs Country Club.JPG" alt="About 7"></div>
-            <div class="item"><img src="noahashe.github.io/noahashe/images/Crown Aura" alt="About 8"></div>
-            <div class="item w2"><img src="noahashe.github.io/noahashe/images/Dirty Birds Megaphone.HEIC" alt="About 9"></div>
-            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Ethan Aura.JPG" alt="About 10"></div>
-            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Fort Mill Crowd.JPG" alt="About 11"></div>
-            <div class="item"><img src="noahashe.github.io/noahashe/images/Gavin Trophy" alt="About 12"></div>
-            <div class="item w2 h2"><img src="noahashe.github.io/noahashe/images/Instagram Profile.jpg" alt="About 13"></div>
-            <div class="item h3"><img src="noahashe.github.io/noahashe/images/Mama Marsh.JPG" alt="About 14"></div>
-            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Mauldin Goal.JPG" alt="About 15"></div>
-            <div class="item"><img src="noahashe.github.io/noahashe/images/Mauldin Win.JPG" alt="About 16"></div>
+            <div class="item w2 h2"><img src="noahashe.github.io/noahashe/35 Suit.JPG" alt="About 1"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/Adam Sandler Day.JPG" alt="About 2"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/Alec Goal.JPG" alt="About 3"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/Barbie Day.JPG" alt="About 4"></div>
+            <div class="item w2"><img src="noahashe.github.io/noahashe/Brenda Ashe .HEIC" alt="About 5"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/Charlie FSU.HEIC" alt="About 6"></div>
+            <div class="item w3 h2"><img src="noahashe.github.io/noahashe/Country vs Country Club.JPG" alt="About 7"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/Crown Aura" alt="About 8"></div>
+            <div class="item w2"><img src="noahashe.github.io/noahashe/Dirty Birds Megaphone.HEIC" alt="About 9"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/Ethan Aura.JPG" alt="About 10"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/Fort Mill Crowd.JPG" alt="About 11"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/Gavin Trophy" alt="About 12"></div>
+            <div class="item w2 h2"><img src="noahashe.github.io/noahashe/Instagram Profile.jpg" alt="About 13"></div>
+            <div class="item h3"><img src="noahashe.github.io/noahashe/Mama Marsh.JPG" alt="About 14"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/Mauldin Goal.JPG" alt="About 15"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/Mauldin Win.JPG" alt="About 16"></div>
             <div class="item w2"><img src="noahashe.github.io/noahashe/images/McDonalds Kay.HEIC" alt="About 17"></div>
-            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Mexico Steve.JPG" alt="About 18"></div>
-            <div class="item"><img src="noahashe.github.io/noahashe/images/Ryan FSU.HEIC" alt="About 19"></div>
-            <div class="item w3 h2"><img src="noahashe.github.io/noahashe/images/Starting Walkout.JPG" alt="About 20"></div>
-            <div class="item w2"><img src="noahashe.github.io/noahashe/images/TDs Crew.jpg" alt="About 21"></div>
-            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Tik Tok Day.JPG" alt="About 22"></div>
-            <div class="item"><img src="noahashe.github.io/noahashe/images/Tyler Walk Past.jpg" alt="About 23"></div>
-            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Walker Jumprope.JPG" alt="About 24"></div>
-            <div class="item"><img src="noahashe.github.io/noahashe.iamges.FM abs.JPG" alt="About 25"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/Mexico Steve.JPG" alt="About 18"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/Ryan FSU.HEIC" alt="About 19"></div>
+            <div class="item w3 h2"><img src="noahashe.github.io/noahashe/Starting Walkout.JPG" alt="About 20"></div>
+            <div class="item w2"><img src="noahashe.github.io/noahashe/TDs Crew.jpg" alt="About 21"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/Tik Tok Day.JPG" alt="About 22"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/Tyler Walk Past.jpg" alt="About 23"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/Walker Jumprope.JPG" alt="About 24"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/FM abs.JPG" alt="About 25"></div>
           </div>
         </div>
       </div>
