@@ -22,7 +22,6 @@
 
     #home{position:fixed;inset:0;display:grid;place-items:center;background:#000}
     #home .cover{position:relative;width:100%;height:100%;overflow:hidden}
-    /* UPLOAD COVER IMAGE HERE */
     #home img{width:100%;height:100%;object-fit:cover;filter:grayscale(0.02) contrast(1.03)}
 
     .hotspot{position:absolute;border-radius:10px;cursor:pointer;display:grid;place-items:center;border:2px solid rgba(255,255,255,0.04);transition:transform .25s,box-shadow .25s}
@@ -75,7 +74,7 @@
 
   <div id="home" role="region" aria-label="Homepage cover">
     <div class="cover">
-      <!-- UPLOAD_PICTURE_HERE -->
+      <!-- UPLOAD COVER IMAGE -->
       <img src="UPLOAD_PICTURE_HERE" alt="Homepage cover image">
 
       <div class="hotspot hotspot--works" data-target="works" role="link" tabindex="0">
@@ -90,17 +89,45 @@
 
   <main id="app" class="wrap" aria-live="polite">
 
+    <!-- WORKS SECTION -->
     <section id="works">
       <h2>Selected Works</h2>
       <p class="muted">A curated collage of projects.</p>
-      <div class="collage" id="worksCollage"></div>
+      <div class="collage" id="worksCollage">
+        <div class="item w2 h2"><img src="UPLOAD_WORK_PICTURE_1" alt="Work 1"></div>
+        <div class="item w3"><img src="UPLOAD_WORK_PICTURE_2" alt="Work 2"></div>
+        <div class="item h2"><img src="UPLOAD_WORK_PICTURE_3" alt="Work 3"></div>
+        <div class="item"><img src="UPLOAD_WORK_PICTURE_4" alt="Work 4"></div>
+        <div class="item w2"><img src="UPLOAD_WORK_PICTURE_5" alt="Work 5"></div>
+        <div class="item h2"><img src="UPLOAD_WORK_PICTURE_6" alt="Work 6"></div>
+        <div class="item w3 h2"><img src="UPLOAD_WORK_PICTURE_7" alt="Work 7"></div>
+        <div class="item"><img src="UPLOAD_WORK_PICTURE_8" alt="Work 8"></div>
+        <div class="item w2"><img src="UPLOAD_WORK_PICTURE_9" alt="Work 9"></div>
+        <div class="item h2"><img src="UPLOAD_WORK_PICTURE_10" alt="Work 10"></div>
+        <div class="item w3"><img src="UPLOAD_WORK_PICTURE_11" alt="Work 11"></div>
+        <div class="item"><img src="UPLOAD_WORK_PICTURE_12" alt="Work 12"></div>
+        <div class="item w2 h2"><img src="UPLOAD_WORK_PICTURE_13" alt="Work 13"></div>
+        <div class="item h3"><img src="UPLOAD_WORK_PICTURE_14" alt="Work 14"></div>
+        <div class="item w3"><img src="UPLOAD_WORK_PICTURE_15" alt="Work 15"></div>
+        <div class="item"><img src="UPLOAD_WORK_PICTURE_16" alt="Work 16"></div>
+        <div class="item w2"><img src="UPLOAD_WORK_PICTURE_17" alt="Work 17"></div>
+        <div class="item h2"><img src="UPLOAD_WORK_PICTURE_18" alt="Work 18"></div>
+        <div class="item"><img src="UPLOAD_WORK_PICTURE_19" alt="Work 19"></div>
+        <div class="item w3 h2"><img src="UPLOAD_WORK_PICTURE_20" alt="Work 20"></div>
+        <div class="item w2"><img src="UPLOAD_WORK_PICTURE_21" alt="Work 21"></div>
+        <div class="item h2"><img src="UPLOAD_WORK_PICTURE_22" alt="Work 22"></div>
+        <div class="item"><img src="UPLOAD_WORK_PICTURE_23" alt="Work 23"></div>
+        <div class="item w3"><img src="UPLOAD_WORK_PICTURE_24" alt="Work 24"></div>
+        <div class="item"><img src="UPLOAD_WORK_PICTURE_25" alt="Work 25"></div>
+      </div>
     </section>
 
+    <!-- ABOUT SECTION -->
     <section id="aboutPage">
       <div class="about-top">
         <div class="about-feature">
-          <!-- UPLOAD_PICTURE_HERE -->
-          <img src="UPLOAD_PICTURE_HERE" alt="Featured image" style="width:100%;border-radius:10px;object-fit:cover;height:320px;display:block;margin-bottom:12px">
+          <!-- UPLOAD FEATURE IMAGE -->
+          <img src="UPLOAD_FEATURE_PICTURE" alt="Featured image" style="width:100%;border-radius:10px;object-fit:cover;height:320px;display:block;margin-bottom:12px">
           <div class="bio">
             <h3>About Me</h3>
             <p>Write a short bio here.</p>
@@ -110,7 +137,33 @@
 
         <div class="about-media">
           <h3>Media & Projects</h3>
-          <div class="collage" id="aboutCollage"></div>
+          <div class="collage" id="aboutCollage">
+            <div class="item w2 h2"><img src="UPLOAD_ABOUT_PICTURE_1" alt="About 1"></div>
+            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_2" alt="About 2"></div>
+            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_3" alt="About 3"></div>
+            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_4" alt="About 4"></div>
+            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_5" alt="About 5"></div>
+            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_6" alt="About 6"></div>
+            <div class="item w3 h2"><img src="UPLOAD_ABOUT_PICTURE_7" alt="About 7"></div>
+            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_8" alt="About 8"></div>
+            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_9" alt="About 9"></div>
+            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_10" alt="About 10"></div>
+            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_11" alt="About 11"></div>
+            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_12" alt="About 12"></div>
+            <div class="item w2 h2"><img src="UPLOAD_ABOUT_PICTURE_13" alt="About 13"></div>
+            <div class="item h3"><img src="UPLOAD_ABOUT_PICTURE_14" alt="About 14"></div>
+            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_15" alt="About 15"></div>
+            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_16" alt="About 16"></div>
+            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_17" alt="About 17"></div>
+            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_18" alt="About 18"></div>
+            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_19" alt="About 19"></div>
+            <div class="item w3 h2"><img src="UPLOAD_ABOUT_PICTURE_20" alt="About 20"></div>
+            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_21" alt="About 21"></div>
+            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_22" alt="About 22"></div>
+            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_23" alt="About 23"></div>
+            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_24" alt="About 24"></div>
+            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_25" alt="About 25"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -126,7 +179,6 @@
   </div>
 
   <audio id="bgAudio" loop preload="auto">
-    <!-- UPLOAD_AUDIO_HERE -->
     <source src="UPLOAD_AUDIO_HERE" type="audio/mpeg">
   </audio>
 
@@ -149,10 +201,31 @@
       el.addEventListener('keydown', (e)=>{ if(e.key === 'Enter') showSection(el.dataset.target) });
     });
 
-    const worksCollage = document.getElementById('worksCollage');
-    for(let i=1;i<=39;i++){
-      const div = document.createElement('div'); div.className='item';
-      const r = i % 7;
-      if(r===0) div.classList.add('w3','h2');
-      else if(r===1) div.classList.add('w2');
-      else if(r===2) div.classList.add
+    /* VIEWER */
+    const viewer = document.getElementById('viewer'); 
+    const viewerImg = document.getElementById('viewerImg');
+    document.getElementById('closeView').addEventListener('click', ()=> viewer.style.display='none');
+    viewer.addEventListener('click', (e)=>{ if(e.target === viewer) viewer.style.display='none'; });
+
+    const images = document.querySelectorAll('.collage .item img');
+    images.forEach(img => img.addEventListener('click', ()=>{
+      viewerImg.src = img.src;
+      viewerImg.alt = img.alt;
+      viewer.style.display='grid';
+    }));
+
+    /* AUDIO */
+    const audio = document.getElementById('bgAudio'); audio.volume = 0.08;
+    const audioControl = document.getElementById('audioControl'); 
+    const audioIcon = document.getElementById('audioIcon');
+
+    function updateAudioIcon(){ audioIcon.style.color = audio.paused ? 'var(--muted)' : 'var(--accent)'; }
+    audio.play().then(updateAudioIcon).catch(updateAudioIcon);
+    audioControl.addEventListener('click', ()=>{ audio.paused ? audio.play() : audio.pause(); updateAudioIcon(); });
+
+    /* START ON HOME */
+    showSection('home');
+    document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') showSection('home'); });
+  </script>
+</body>
+</html>
