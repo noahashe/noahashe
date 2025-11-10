@@ -127,42 +127,42 @@
       <div class="about-top">
         <div class="about-feature">
           <!-- UPLOAD FEATURE IMAGE -->
-          <img src="UPLOAD_FEATURE_PICTURE" alt="Featured image" style="width:100%;border-radius:10px;object-fit:cover;height:320px;display:block;margin-bottom:12px">
+          <img src="noahashe.github.io/noahashe/images/GPT Picture.jpg" alt="Featured image" style="width:100%;border-radius:10px;object-fit:cover;height:320px;display:block;margin-bottom:12px">
           <div class="bio">
             <h3>About Me</h3>
-            <p>Write a short bio here.</p>
-            <p style="margin-top:8px;color:var(--muted)">Contact: your.email@example.com</p>
+            <p>My name is Noah Ashe. I am a Freshman at Clemson. I am currently using my 3 years of design experience to make graphics for the women's basketball team. Clemson lets me fulfill my goals while continuing to do the things that I love.</p>
+            <p style="margin-top:8px;color:var(--muted)">Contact: noahashe94@gmail.com</p>
           </div>
         </div>
 
         <div class="about-media">
           <h3>Media & Projects</h3>
           <div class="collage" id="aboutCollage">
-            <div class="item w2 h2"><img src="UPLOAD_ABOUT_PICTURE_1" alt="About 1"></div>
-            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_2" alt="About 2"></div>
-            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_3" alt="About 3"></div>
-            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_4" alt="About 4"></div>
-            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_5" alt="About 5"></div>
-            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_6" alt="About 6"></div>
-            <div class="item w3 h2"><img src="UPLOAD_ABOUT_PICTURE_7" alt="About 7"></div>
-            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_8" alt="About 8"></div>
-            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_9" alt="About 9"></div>
-            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_10" alt="About 10"></div>
-            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_11" alt="About 11"></div>
-            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_12" alt="About 12"></div>
-            <div class="item w2 h2"><img src="UPLOAD_ABOUT_PICTURE_13" alt="About 13"></div>
-            <div class="item h3"><img src="UPLOAD_ABOUT_PICTURE_14" alt="About 14"></div>
-            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_15" alt="About 15"></div>
-            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_16" alt="About 16"></div>
-            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_17" alt="About 17"></div>
-            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_18" alt="About 18"></div>
-            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_19" alt="About 19"></div>
-            <div class="item w3 h2"><img src="UPLOAD_ABOUT_PICTURE_20" alt="About 20"></div>
-            <div class="item w2"><img src="UPLOAD_ABOUT_PICTURE_21" alt="About 21"></div>
-            <div class="item h2"><img src="UPLOAD_ABOUT_PICTURE_22" alt="About 22"></div>
-            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_23" alt="About 23"></div>
-            <div class="item w3"><img src="UPLOAD_ABOUT_PICTURE_24" alt="About 24"></div>
-            <div class="item"><img src="UPLOAD_ABOUT_PICTURE_25" alt="About 25"></div>
+            <div class="item w2 h2"><img src="noahashe.github.io/noahashe/images/35 Suit.JPG" alt="About 1"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Adam Sandler Day.JPG" alt="About 2"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Alec Goal.JPG" alt="About 3"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/images/Barbie Day.JPG" alt="About 4"></div>
+            <div class="item w2"><img src="noahashe.github.io/noahashe/images/Brenda Ashe .HEIC" alt="About 5"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Charlie FSU.HEIC" alt="About 6"></div>
+            <div class="item w3 h2"><img src="noahashe.github.io/noahashe/images/Country vs Country Club.JPG" alt="About 7"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/images/Crown Aura" alt="About 8"></div>
+            <div class="item w2"><img src="noahashe.github.io/noahashe/images/Dirty Birds Megaphone.HEIC" alt="About 9"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Ethan Aura.JPG" alt="About 10"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Fort Mill Crowd.JPG" alt="About 11"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/images/Gavin Trophy" alt="About 12"></div>
+            <div class="item w2 h2"><img src="noahashe.github.io/noahashe/images/Instagram Profile.jpg" alt="About 13"></div>
+            <div class="item h3"><img src="noahashe.github.io/noahashe/images/Mama Marsh.JPG" alt="About 14"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Mauldin Goal.JPG" alt="About 15"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/images/Mauldin Win.JPG" alt="About 16"></div>
+            <div class="item w2"><img src="noahashe.github.io/noahashe/images/McDonalds Kay.HEIC" alt="About 17"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Mexico Steve.JPG" alt="About 18"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/images/Ryan FSU.HEIC" alt="About 19"></div>
+            <div class="item w3 h2"><img src="noahashe.github.io/noahashe/images/Starting Walkout.JPG" alt="About 20"></div>
+            <div class="item w2"><img src="noahashe.github.io/noahashe/images/TDs Crew.jpg" alt="About 21"></div>
+            <div class="item h2"><img src="noahashe.github.io/noahashe/images/Tik Tok Day.JPG" alt="About 22"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe/images/Tyler Walk Past.jpg" alt="About 23"></div>
+            <div class="item w3"><img src="noahashe.github.io/noahashe/images/Walker Jumprope.JPG" alt="About 24"></div>
+            <div class="item"><img src="noahashe.github.io/noahashe.iamges.FM abs.JPG" alt="About 25"></div>
           </div>
         </div>
       </div>
